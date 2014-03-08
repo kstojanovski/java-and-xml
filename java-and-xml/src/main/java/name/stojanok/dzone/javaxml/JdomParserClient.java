@@ -87,7 +87,7 @@ public class JdomParserClient {
 			XMLOutputter xmlOutput = new XMLOutputter();
 			// output to the System.out
 //			xmlOutput.output(document, System.out);
-			xmlOutput.output(document, new FileOutputStream(new File("d:\\test_jdom.xml")));
+			xmlOutput.output(document, new FileOutputStream(new File("test_jdom.xml")));
 			
 			Transformer transformer = TransformerFactory.newInstance()
 					.newTransformer(new StreamSource(inputStream2));
@@ -95,7 +95,7 @@ public class JdomParserClient {
 			JDOMResult jdomResult = new JDOMResult();
 			transformer.transform(jdomSource, jdomResult);
 			xmlOutput.setFormat(Format.getPrettyFormat());
-			xmlOutput.output(jdomResult.getResult(), new FileOutputStream(new File("d:\\test_jdom.xml")));
+			xmlOutput.output(jdomResult.getResult(), new FileOutputStream(new File("test_jdom.xml")));
 			
 		} catch (JDOMException e) {
 			// TODO Auto-generated catch block

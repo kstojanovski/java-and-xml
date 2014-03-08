@@ -141,7 +141,7 @@ public class DomParserClient {
 		    transformer.setOutputProperty(OutputKeys.METHOD, "xml");
 		    transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 			DOMSource source = new DOMSource(document);
-			Result result = new StreamResult(new FileOutputStream(new File(("d:\\test_dom.xml"))));
+			Result result = new StreamResult(new FileOutputStream(new File(("test_dom.xml"))));
 			// output to the System.out
 			// Result result =  new StreamResult(System.out);
 			transformer.transform(source, result);
@@ -149,10 +149,10 @@ public class DomParserClient {
 			Transformer transformer2 = TransformerFactory.newInstance()
 					.newTransformer(new StreamSource(inputStream2));
 			Source source2 = new DOMSource(document);
-			Result result2 = new StreamResult(new FileOutputStream(new File(("d:\\test_dom.xml"))));
+			Result result2 = new StreamResult(new FileOutputStream(new File(("test_dom.xml"))));
 			transformer2.transform(source2, result2);
 //			out.getResult();
-//			xmlOutput.output(out.getResult(), new FileOutputStream(new File("d:\\test_jdom.xml")));
+//			xmlOutput.output(out.getResult(), new FileOutputStream(new File("test_jdom.xml")));
 			
 			
 		} catch (ParserConfigurationException e) {
