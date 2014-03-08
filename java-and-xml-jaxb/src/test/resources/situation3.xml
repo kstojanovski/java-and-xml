@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<market xmlns:ns2="name.stojanok.dzone">
+  <fruits>
+    <fruit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="apple">
+      <color>red</color>
+      <type>type1</type>
+      <appleProperty>some</appleProperty>
+    </fruit>
+    <fruit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="pear">
+      <color>yellow</color>
+      <type>type2</type>
+      <pearProperty>some</pearProperty>
+    </fruit>
+  </fruits>
+</market>

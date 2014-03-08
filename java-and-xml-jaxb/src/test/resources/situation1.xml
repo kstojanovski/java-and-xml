@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<ns2:person xmlns:ns2="name.stojanok.dzone" id="123">
+  <firstname>John</firstname>
+  <lastname>Doe</lastname>
+  <addInfo>
+    <drivingLicense>false</drivingLicense>
+    <hobbies>
+      <hobby>fishing</hobby>
+      <hobby>techblog</hobby>
+    </hobbies>
+  </addInfo>
+  <extraInformation id="987" name="type">info</extraInformation>
+</ns2:person>

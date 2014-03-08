@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:my="http://www.stojanok.name/2013/javaxml">
+	<tag>first</tag>
+	<tag type="special">second</tag>
+	<other>third</other>
+	<other type="">fourth</other>
+	<!-- XPath -->
+	<deep>
+		<tag>
+			<other>fifth</other>
+		</tag>
+	</deep>
+	<!-- namespace -->
+	<my:other>sixth</my:other>
+	<my:other my:type="different">seventh</my:other>
+	<empty></empty>
+</root>

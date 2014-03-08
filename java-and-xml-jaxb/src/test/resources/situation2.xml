@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<otherPerson xmlns:ns2="name.stojanok.dzone">
+  <cdata><![CDATA[cdata conent <html></html>]]></cdata>
+  <map0>
+    <entry>
+      <key>prperty1</key>
+      <value>value1</value>
+    </entry>
+    <entry>
+      <key>prperty0</key>
+      <value>value0</value>
+    </entry>
+  </map0>
+  <map1>
+    <entry>
+      <key xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">prperty1</key>
+      <value xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">value1</value>
+    </entry>
+    <entry>
+      <key xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">prperty0</key>
+      <value xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">value0</value>
+    </entry>
+  </map1>
+  <map3>
+    <entry>
+      <key xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="key">
+        <key>key1</key>
+      </key>
+      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="value">
+        <value>value2</value>
+      </value>
+    </entry>
+    <entry>
+      <key xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="key">
+        <key>key0</key>
+      </key>
+      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="value">
+        <value>value0</value>
+      </value>
+    </entry>
+  </map3>
+  <someData>a &amp; b</someData>
+</otherPerson>
