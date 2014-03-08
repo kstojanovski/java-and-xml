@@ -25,9 +25,10 @@ import org.junit.Test;
 
 public class TestJaxb {
 
-	private static final String PATH_SITUATION_ONE = "src\\test\\resources\\situation1.xml";
-	private static final String PATH_SITUATION_TWO = "src\\test\\resources\\situation2.xml";
-	private static final String PATH_SITUATION_THREE = "src\\test\\resources\\situation3.xml";
+	private static final String SEPARATOR = File.separator;
+	private static final String PATH_SITUATION_ONE = getPathToXmlResource().concat("situation1.xml");
+	private static final String PATH_SITUATION_TWO = getPathToXmlResource().concat("situation2.xml");
+	private static final String PATH_SITUATION_THREE = getPathToXmlResource().concat("situation3.xml");
 
 	Logger LOGGER = Logger.getLogger(TestJaxb.class);
 
@@ -132,5 +133,11 @@ public class TestJaxb {
 				}				
 			}
 		}		
+	}
+	
+	private static String getPathToXmlResource() {
+		return new StringBuilder().append("src").append(SEPARATOR)
+				.append("test").append(SEPARATOR).append("resources")
+				.append(SEPARATOR).toString();
 	}
 }
