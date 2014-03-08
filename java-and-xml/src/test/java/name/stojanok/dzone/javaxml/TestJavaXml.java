@@ -28,8 +28,8 @@ public class TestJavaXml {
 	@Before
 	public void init() {
 		try {
-			inputStream = new FileInputStream(new File("C:\\Users\\KOCTA2010\\workspace_dzone\\java-and-xml\\src\\test\\resources\\xml\\test.xml"));
-			inputStream2 = new FileInputStream(new File("C:\\Users\\KOCTA2010\\workspace_dzone\\java-and-xml\\src\\test\\resources\\xml\\test.xsl"));
+			inputStream = new FileInputStream(new File("src\\test\\resources\\xml\\test.xml"));
+			inputStream2 = new FileInputStream(new File("src\\test\\resources\\xml\\test.xsl"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
