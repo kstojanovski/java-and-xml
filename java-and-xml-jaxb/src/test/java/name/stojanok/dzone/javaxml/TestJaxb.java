@@ -25,9 +25,9 @@ import org.junit.Test;
 
 public class TestJaxb {
 
-	private static final String PATH_SITUATION_ONE = "C:\\Users\\KOCTA2010\\workspace_dzone\\java-and-xml-jaxb\\src\\test\\resources\\situation1.xml";
-	private static final String PATH_SITUATION_TWO = "C:\\Users\\KOCTA2010\\workspace_dzone\\java-and-xml-jaxb\\src\\test\\resources\\situation2.xml";
-	private static final String PATH_SITUATION_THREE = "C:\\Users\\KOCTA2010\\workspace_dzone\\java-and-xml-jaxb\\src\\test\\resources\\situation3.xml";
+	private static final String PATH_SITUATION_ONE = "src\\test\\resources\\situation1.xml";
+	private static final String PATH_SITUATION_TWO = "src\\test\\resources\\situation2.xml";
+	private static final String PATH_SITUATION_THREE = "src\\test\\resources\\situation3.xml";
 
 	Logger LOGGER = Logger.getLogger(TestJaxb.class);
 

@@ -24,18 +24,18 @@
   <map3>
     <entry>
       <key xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="key">
-        <key>key1</key>
-      </key>
-      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="value">
-        <value>value2</value>
-      </value>
-    </entry>
-    <entry>
-      <key xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="key">
         <key>key0</key>
       </key>
       <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="value">
         <value>value0</value>
+      </value>
+    </entry>
+    <entry>
+      <key xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="key">
+        <key>key1</key>
+      </key>
+      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="value">
+        <value>value2</value>
       </value>
     </entry>
   </map3>
